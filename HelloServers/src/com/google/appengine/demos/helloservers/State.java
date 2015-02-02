@@ -24,6 +24,7 @@ public class State {
     state.add(new byte[megabytes * MEGABYTE]);
   }
 
+  
   public static int size() {
     int size = 0;
     for (byte[] data : state) {
