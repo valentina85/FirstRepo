@@ -33,6 +33,7 @@ public class HelloServers extends HttpServlet {
     vars = new ConcurrentHashMap<String, AtomicInteger>();
     vars.put("requests", new AtomicInteger(0));
   }
+  
 
   /**
    * Loops for a number of seconds, printing a message every second.
