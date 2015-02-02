@@ -33,6 +33,7 @@ public class HelloServers extends HttpServlet {
   static {
     vars = new ConcurrentHashMap<String, AtomicInteger>();
     vars.put("requests", new AtomicInteger(0));
+    
   }
   
 
