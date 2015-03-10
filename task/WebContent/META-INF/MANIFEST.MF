@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: task
+Bundle-SymbolicName: task
+Bundle-Version: 1.0.0.qualifier
+Export-Package: vimond.task1,
+ vimond.task1.controller,
+ vimond.task1.model
